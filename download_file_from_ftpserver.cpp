@@ -7,7 +7,7 @@
 void AMyActor::Download(FString MediaSource)
 {
 	char szAppname[MAX_PATH] = "FTP";
-	char szServer[MAX_PATH] = "192.168.0.17";
+	char szServer[MAX_PATH] = "ipaddress";
 	char szPort[MAX_PATH] = "21";
 	char szUsername[MAX_PATH] = "username";
 	char szPassword[MAX_PATH] = "password";
