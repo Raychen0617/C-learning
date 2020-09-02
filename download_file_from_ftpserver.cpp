@@ -9,8 +9,8 @@ void AMyActor::Download(FString MediaSource)
 	char szAppname[MAX_PATH] = "FTP";
 	char szServer[MAX_PATH] = "192.168.0.17";
 	char szPort[MAX_PATH] = "21";
-	char szUsername[MAX_PATH] = "rong";
-	char szPassword[MAX_PATH] = "123456";
+	char szUsername[MAX_PATH] = "username";
+	char szPassword[MAX_PATH] = "password";
 	char szFilePath[MAX_PATH] = "/Endoscope/Movies/LargeIntestine_Movies";  //一個反向的斜槓（）或向前斜槓（/）可以用作任何名稱的目錄分隔符
 	char szFileName[MAX_PATH] = "VTS_18_1.mp4";
 	char szNewFileName[MAX_PATH] = "VTS_18_1.mp4";
